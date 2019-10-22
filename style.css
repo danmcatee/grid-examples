@@ -1,3 +1,46 @@
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: hotpink;
+  height: 80px;
+  padding: 0 100px;
+}
+
+.nav-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100%;
+  background-color: salmon;
+  width: 60px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 40px;
+}
+
+.nav-list li:last-of-type {
+  margin: 0;
+}
+
+#content-grid {
+  background-color: lightgrey;
+  padding: 100px;
+}
+
 #wrapper {
   width: 70%;
   margin: 0 auto;
