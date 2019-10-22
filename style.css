@@ -5,14 +5,14 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "content card-1 card-2"
-    "content card-3 card-4";
+    "red card-1 card-2"
+    "red card-3 card-4";
   gap: 20px;
 }
 
 .red {
   background-color: red;
-  grid-area: content;
+  grid-area: red;
 }
 
 .blue {
